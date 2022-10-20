@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,600&display=swap');
+
+body {
+  padding: 1rem;
+  background: #E8EAF6;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.4;
+}
+
+.container {
+  background: #fff;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 5px 35px rgba(0, 0, 0, .1);
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  background: #E3F2FD;
+  margin: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.box >* {
+  position: relative;
+  padding: 15px;
+  background: #fff;
+  width: 100%;
+}
+
+.box >*:first-child {
+  background: #42A5F5;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.box >*:last-child {
+  background: #E3F2FD;
+}
+
+.auto-grid {
+    --auto-grid-min-size: 16rem;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    grid-gap: 1rem;
+  }
+
+  li {
+    padding: 4rem 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    background: #eb4d4b;
+    color: #ffffff;
+  }
+
+  .grid-div{
+    margin-right: 30px;
+  }
+
+  .channel-profil{
+    width: 50px;
+    margin-top: -40px;
+  }
